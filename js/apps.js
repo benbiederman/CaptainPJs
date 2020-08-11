@@ -36,3 +36,14 @@ const navSticky = () => {
 }
 
 navSticky();
+
+const contentSlide = () => {
+    const about = document.querySelector('.about')
+
+    window.addEventListener('scroll', () => {
+        about.classList.toggle('about-show', window.scrollY > 200);
+      })
+
+}
+
+contentSlide();

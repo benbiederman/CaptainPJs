@@ -140,6 +140,7 @@ Mobile
 
         .burger {
             cursor: pointer;
+            transition: all 0.5s ease;
         }
 
         .burger div {  
@@ -258,6 +259,13 @@ Mobile
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            margin-top: 100px;
+            transition: all 0.8s ease;
+        }
+
+        .about-show {
+            margin-top: 0;
+            transition: all 0.8s ease;
         }
 
         .about div {
@@ -280,6 +288,8 @@ Mobile
             font-size: 18px;
             margin: 3vh; 
         }
+
+
 
         /* /about section */
 
